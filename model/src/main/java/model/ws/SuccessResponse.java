@@ -1,8 +1,10 @@
 package model.ws;
 
 
+import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 
+@MappedSuperclass
 public class SuccessResponse implements Serializable {
 
     private String idTx;

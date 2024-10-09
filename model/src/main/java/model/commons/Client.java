@@ -1,10 +1,14 @@
-package model.ws;
+package model.commons;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-import java.io.Serializable;
-
-public class SignUpRequest implements Serializable {
-
+@Entity
+@Table(name = "clients")
+public class Client {
+    private static final long serialVersionUID = 1L;
+    @Id
     private String idTx;
     private String tipoDocumento;
     private String numeroDocumento;

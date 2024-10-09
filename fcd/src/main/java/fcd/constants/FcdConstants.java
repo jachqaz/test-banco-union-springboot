@@ -8,8 +8,4 @@ public class FcdConstants {
     private static final String VERSION_API = "1.0";
     private static final String CONTEXT_API = "/api/" + VERSION_API;
     public static final String SIGNUP_CONTEXT = CONTEXT_API + "/signUp";
-
-
-    private FcdConstants() {
-    }
 }
