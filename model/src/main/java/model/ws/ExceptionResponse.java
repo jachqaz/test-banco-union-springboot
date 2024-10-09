@@ -4,18 +4,14 @@ package model.ws;
 import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
-public class ErrorResponse {
+public class ExceptionResponse extends Exception {
 
     private String idTx;
     private String error;
 
-    public ErrorResponse(String idTx, String error) {
+    public ExceptionResponse(String idTx, String error, Throwable cause) {
+        super(cause);
         this.idTx = idTx;
-        this.error = error;
-    }
-
-    public ErrorResponse(String error) {
-        this.idTx = "";
         this.error = error;
     }
 

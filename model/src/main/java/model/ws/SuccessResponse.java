@@ -10,6 +10,11 @@ public class SuccessResponse implements Serializable {
     private String idTx;
     private String mensaje;
 
+    public SuccessResponse(String idTx, String mensaje) {
+        this.idTx = idTx;
+        this.mensaje = mensaje;
+    }
+
     public String getIdTx() {
         return idTx;
     }

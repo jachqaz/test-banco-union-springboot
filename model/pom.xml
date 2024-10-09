@@ -11,11 +11,5 @@
     <description>persistence model</description>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>org.mapstruct</groupId>
-            <artifactId>mapstruct</artifactId>
-            <version>1.6.2</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 </project>

@@ -1,5 +1,6 @@
 package model.commons;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
